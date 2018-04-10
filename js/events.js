@@ -32,7 +32,7 @@ function submitIt() {
   //$("#typing").on('submit', function() {
   //  window.alert('Your form is going to be submitted now')
   //  return;
-  })
+  //})
 }
 
 $(document).ready(function(){
