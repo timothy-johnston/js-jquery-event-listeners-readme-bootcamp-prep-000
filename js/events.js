@@ -29,7 +29,9 @@ function submitIt() {
   
   const form = window.$('form')[0];
   
-  
+  $(form).on('submit', function() {
+    window.alert('Your form is going to be submitted now')
+  })
   
   //$("#typing").on('submit', function() {
   //  window.alert('Your form is going to be submitted now')
