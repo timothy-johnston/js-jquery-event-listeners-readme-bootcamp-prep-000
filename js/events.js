@@ -26,7 +26,7 @@ function pressIt() {
 
 //submitIt
 function submitIt() {
-  
+  $('form:last')
 }
 
 $(document).ready(function(){
